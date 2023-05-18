@@ -11,7 +11,6 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
     @Bean
-//    @Autowired
     public static Island2 getIsland(Wood3 wood) {
         return new Island2(wood);
     }
